@@ -1,5 +1,5 @@
-# Arduino
-General Arduino projects
+# General Arduino projects
+
 First project consists of 2 robotic arms. When the master arm moves, the slave follows in the same motion. 
 The motion is detected in the master using Incremental encoders and transfered in the slave by 2 servos.
 The arms have three modes; follow, program and execute. In the follow mode, the slave arm follows the master in realtime. In program mode, the positition of the master can be saved to be executed in the execute mode. In the execute mode, the prev. saved positions are executed in a loop with a maximum of 10 saved positions.
